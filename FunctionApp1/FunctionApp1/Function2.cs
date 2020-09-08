@@ -18,6 +18,8 @@ namespace FunctionApp1
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
+            
+            log.LogInformation("C# HTTP trigger function processed a request new line.");
 
             string name = req.Query["name"];
 
